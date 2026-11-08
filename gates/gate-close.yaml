@@ -1,0 +1,5 @@
+name: gate-close
+human_approval: false
+checks:
+  - openspec_change_archived
+  - summary_exists

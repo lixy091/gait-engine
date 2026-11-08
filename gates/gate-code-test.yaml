@@ -1,0 +1,6 @@
+name: gate-code-test
+human_approval: true
+checks:
+  - all_task_ids_completed
+  - manifest_test_command_passes
+  - coding_manifest_exists

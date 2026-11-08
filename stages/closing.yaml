@@ -1,0 +1,5 @@
+name: closing
+context: contexts/stage-closing.yaml
+allow_code_modification: false
+exit_gate: gate-close
+instructions: 通过 gait 执行 openspec archive，写 summary；门禁通过后由 gait task close 标记完成。

@@ -1,0 +1,10 @@
+name: requirement-design
+context: contexts/stage-requirement-design.yaml
+allow_code_modification: false
+exit_gate: gate-design-artifacts
+instructions: >-
+  阶段一先检查项目上下文并梳理尚未明确的需求；一次只问一个澄清问题，逐项确认范围、预期行为、约束和验收标准，
+  不得用自行假设代替澄清。在向用户复述需求理解并得到用户明确确认之前，不得创建需求设计文档或 OpenSpec artifacts，
+  也不得启动 OpenSpec propose；确认后再写需求设计文档，并通过 OpenSpec propose 生成 spec、design、tasks artifacts。
+  阶段一不得修改业务代码。以上是需求澄清流程，不会切换 Codex 内置 Plan mode；需要该模式时由用户使用 /plan。
+  CLI 不约束模型行为，但退出门禁会检查产物齐全且 tracked 业务代码无改动。

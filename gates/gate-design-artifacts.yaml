@@ -1,0 +1,6 @@
+name: gate-design-artifacts
+human_approval: true
+checks:
+  - requirement_design_document_exists
+  - openspec_spec_design_tasks_exist
+  - tracked_business_code_is_clean

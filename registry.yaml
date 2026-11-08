@@ -1,0 +1,11 @@
+components:
+  workflow.normal-iteration: workflows/normal-iteration.yaml
+  stage.requirement-design: stages/requirement-design.yaml
+  stage.coding: stages/coding.yaml
+  stage.closing: stages/closing.yaml
+  gate.gate-design-artifacts: gates/gate-design-artifacts.yaml
+  gate.gate-code-test: gates/gate-code-test.yaml
+  gate.gate-close: gates/gate-close.yaml
+  context.stage-requirement-design: contexts/stage-requirement-design.yaml
+  context.stage-coding: contexts/stage-coding.yaml
+  context.stage-closing: contexts/stage-closing.yaml

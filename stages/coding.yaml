@@ -1,0 +1,8 @@
+name: coding
+context: contexts/stage-coding.yaml
+allow_code_modification: true
+exit_gate: gate-code-test
+instructions: >-
+  按 OpenSpec artifacts/tasks.md 顺序逐项实施。每条任务完成代码、单测并通过后，才将 task_id
+  追加到 .gait/tasks/<task_id>/state.yaml 的 completed_task_ids；只能通过 gait CLI 修改状态。
+  产出包含文件、task_id、测试命令和覆盖率的 coding manifest。

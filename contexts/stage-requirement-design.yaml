@@ -1,0 +1,6 @@
+name: stage-requirement-design
+include:
+  - .gait/tasks-index.yaml
+  - .gait/tasks/{active_task}/state.yaml
+  - docs/requirement/{task_name}/需求设计文档.md
+  - openspec/changes/{openspec_change}/artifacts/

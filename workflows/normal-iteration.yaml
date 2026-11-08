@@ -1,0 +1,6 @@
+name: normal-iteration
+description: 三阶段需求设计、编码、归档闭环
+stages:
+  - requirement-design
+  - coding
+  - closing

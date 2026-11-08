@@ -1,0 +1,5 @@
+name: stage-closing
+include:
+  - .gait/tasks/{active_task}/state.yaml
+  - docs/{task_name}/summary.md
+  - openspec/changes/archive/{openspec_change}/

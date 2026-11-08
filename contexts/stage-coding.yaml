@@ -1,0 +1,5 @@
+name: stage-coding
+include:
+  - .gait/tasks/{active_task}/state.yaml
+  - openspec/changes/{openspec_change}/artifacts/tasks.md
+  - docs/{task_name}/coding-manifest.md
